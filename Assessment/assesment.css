@@ -1,0 +1,134 @@
+h1 {
+    text-align: center;
+    color: rgb(180, 25, 25);
+}
+
+.in1 {
+    margin-left: 60px;
+    margin-bottom: 5px;
+    width: 600px;
+    height: 30px;
+
+}
+
+.in2 {
+    margin-left: 62px;
+    margin-bottom: 5px;
+    width: 600px;
+    height: 30px;
+
+
+}
+
+.in3 {
+    margin-left: 93px;
+    margin-bottom: 5px;
+    width: 600px;
+    height: 30px;
+
+
+}
+
+.in4 {
+    margin-left: 85px;
+    margin-bottom: 5px;
+    width: 600px;
+    height: 30px;
+
+
+}
+
+.in5 {
+    margin-left: 84px;
+    margin-bottom: 20px;
+
+}
+
+.in6 {
+    margin-left: 43px;
+    margin-bottom: px;
+    width: 600px;
+    height: 30px;
+
+}
+
+
+
+.in7 {
+    margin-left: 138px;
+    margin-bottom: 5px;
+    width: 600px;
+    height: 200px;
+
+}
+
+.in8 {
+    margin-left: 102px;
+    margin-bottom: 5px;
+    width: 600px;
+    height: 30px;
+
+}
+
+.in9 {
+    margin-left: 69px;
+    margin-bottom: 5px;
+    width: 600px;
+    height: 30px;
+
+}
+
+.in10 {
+    margin-left: 45px;
+    margin-bottom: 20px;
+
+}
+
+.in11 {
+    margin-left: 39px;
+    margin-bottom: 5px;
+
+}
+
+.in12,
+.in13 {
+    margin-left: 138px;
+    margin-bottom: 5px;
+
+}
+
+.in14 {
+    margin-left: 138px;
+    margin-bottom: 10px;
+}
+
+.in15 {
+    margin-left: 68px;
+    margin-bottom: 5px;
+    width: 600px;
+    height: 30px;
+
+}
+
+button {
+    background-color: green;
+    color: white;
+    height: 35px;
+    border-radius: 5px;
+    border-color: transparent;
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+button:hover {
+    background-color: blue;
+}
+
+fieldset {
+    background-color: rgb(205, 241, 241);
+    border: transparent;
+}
+
+address {
+    font-style: normal;
+}
