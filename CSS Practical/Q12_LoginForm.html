@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .main {
+            background-color: rgb(178, 174, 245);
+            width: 100%;
+            height: 100vh;
+
+
+        }
+
+        h1 {
+            text-align: center;
+            padding-top: 20px;
+            font-size: 50px;
+            text-shadow: 2px 2px 3px darkred;
+        }
+
+        .box {
+            width: 800px;
+            height: 450px;
+            margin: 30px auto;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            border-radius: ;
+
+
+        }
+
+        .leftcolumn {
+
+            width: 100%;
+            height: 80%;
+            text-align: center;
+            background-color: white;
+            border-radius: 10px 0px 0px 10px;
+        }
+
+        .rightcolumn {
+            width: 100%;
+            height: 80%;
+            background-size: cover;
+            background-position: center;
+            border-radius: 0px 10px 10px 0px;
+
+        }
+
+        img {
+            width: 100%;
+            height: 100%;
+
+            border-radius: 0px 10px 10px 0px;
+        }
+
+        .p1 {
+            font-size: 30px;
+            margin-top: 50px;
+            text-shadow: 2px 0px 2px rgb(131, 13, 13);
+
+        }
+
+        .in1,
+        .in2 {
+            margin-bottom: 15px;
+            width: 230px;
+            height: 30px;
+            border-radius: 15px;
+            padding-left: 10px;
+            box-shadow: 2px 5px 2px black;
+            border: none;
+            background-color: rgb(167, 185, 192);
+            color: rgb(75, 74, 74);
+        }
+
+        button {
+            width: 150px;
+            height: 40px;
+            border-radius: 20px;
+            background: linear-gradient(rgb(91, 91, 233), black);
+            color: white;
+            border: none;
+            font-size: 20px;
+            transition: 1s all ease;
+            cursor: pointer;
+        }
+
+        button:hover {
+            color: white;
+            width: 240px;
+
+
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        .p2 {
+            color: grey;
+        }
+
+        .p3,
+        .p4 {
+            color: rgb(105, 105, 105);
+        }
+    </style>
+
+</head>
+
+<body>
+    <form action="#" method="get">
+        <div class="main">
+            <h1>Login Form</h1>
+            <div class="box">
+                <div class="leftcolumn">
+                    <p class="p1">Log In</p><br>
+                    <p class="p2 ">To Your Account</p><br>
+                    <input type="text" placeholder="User Name" class="in1"><br>
+                    <input type="password" name="" id="" placeholder="Password" class="in2"><br>
+                    <button>Login</button><br><br><br>
+                    <p class="p3">Or connect with social media</p><br><br><br>
+                    <p class="p4">Don't have an account?<a href=""> Register</a></p>
+                </div>
+                <div class="rightcolumn"><img src="../../../img8.jpg" alt=""></div>
+
+            </div>
+
+        </div>
+    </form>
+</body>
+
+</html>
