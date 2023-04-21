@@ -1,0 +1,20 @@
+
+Q-1: What is jQuery?
+Ans: jQuery is a lightweight, "write less, do more", JavaScript library.The purpose of jQuery is to make it much easier to use JavaScript on your website.
+
+Q-2: How to Apply CSS Using JQuery, How to Add Class and Remove Class in Jquery ,JQuery Animation?
+Ans:By CSS() method we can apply different css using jquery.
+
+    Using addClass(),removeClass() & toggleClass() method we can add and remove class in Jquery.
+
+    The jQuery animate() method is used to create custom animations by changing the CSS numerical properties of a DOM element, 
+    for ex: width, height, margin, padding, opacity, top, left, etc.
+    simple syntax of animate() method:
+    $(selector).animate({ properties }, [speed, callback] );
+
+Q-3 How to create slider with animation?
+Ans: By using slideUp(), slideDown() & slideToggle methods we can create slider with animation.
+
+
+
+     
