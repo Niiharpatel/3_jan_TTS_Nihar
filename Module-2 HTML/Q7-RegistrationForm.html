@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        color: dark;
+    }
+
+    body {
+        height: 800px;
+        background: conic-gradient(darkgreen, darkgrey, darkorange, darkkhaki, rgb(3, 65, 61), darkred, darkviolet);
+    }
+
+    fieldset {
+        margin-top: 50px;
+        padding: 50px auto;
+        width: 800px;
+        height: 750px;
+        border: transparent;
+        background-color: rgb(24, 241, 241);
+        box-shadow: 0px 0px 5px 10px black;
+    }
+
+    .border1 {
+
+        border: 2px solid black;
+        text-align: center;
+        width: 700px;
+        height: 100px;
+        margin-inline: auto;
+        padding: 2px;
+    }
+
+    .border2 {
+        width: auto;
+        height: 96px;
+        border: 2px solid black;
+
+    }
+
+    p {
+        font-size: xxx-large;
+        margin-top: 15px;
+        text-shadow: 0px 3px 5px black;
+    }
+
+    .dd {
+        width: 35px;
+        height: 20px;
+        font-size: larger;
+        margin-left: 30px;
+
+    }
+
+    .mm {
+        width: 35px;
+        height: 20px;
+        font-size: larger;
+        margin-left: ;
+    }
+
+    .yy {
+        width: 55px;
+        height: 20px;
+        font-size: larger;
+    }
+
+    .cl1,
+    .cl2,
+    .cl3,
+    .cl4,
+    .cl5,
+    .cl6,
+    .cl7,
+    .cl8,
+    .cl9,
+    .cl10,
+    .cl11,
+    .cl12 {
+
+        padding: 10px 0px 10px 0px;
+        width: 130px;
+        font-size: larger;
+    }
+
+    table {
+        text-align: left;
+        border: transparent;
+    }
+
+    .td1 {
+        width: 300px;
+        height: 20px;
+        margin-left: 30px;
+        padding-left: 5px;
+
+    }
+
+    .td2 {
+        width: 400px;
+        height: 20px;
+        margin-left: 30px;
+        padding-left: 5px;
+    }
+
+    .td3 {
+        width: 100px;
+        height: 20px;
+        margin-left: 30px;
+    }
+
+    .gen {
+        margin-left: 30px;
+    }
+
+    .dep {
+        margin-left: 30px;
+        font-size: larger;
+    }
+
+    .check {
+        font-size: larger;
+        margin-left: 30px;
+    }
+
+    .td3::-webkit-input-placeholder {
+        color: black;
+    }
+
+    .box1 {
+        margin-top: 50px;
+
+    }
+
+    .box2 {
+        width: 700px;
+        margin-inline: auto;
+        margin-top: 20px;
+    }
+
+    .sel {
+        height: 20px;
+        margin-left: 30px;
+        width: 70px;
+        height: 25px;
+    }
+
+    .btn1,
+    .btn2 {
+        width: 90px;
+        height: 30px;
+        border-color: transparent;
+        background-color: rgb(206, 15, 15);
+        color: white;
+        font-size: 15px;
+        font-weight: bolder;
+        transition: 0.5s all ease;
+        margin-top: 10px;
+    }
+
+    .btn1:hover {
+        transform: translateX(-10px);
+        background-color: transparent;
+        border-color: black;
+        color: black;
+    }
+
+    .btn2:hover {
+        transform: translateX(10px);
+        background-color: transparent;
+        border-color: black;
+        color: black;
+    }
+</style>
+
+<body>
+    <form action="" method="get">
+        <center>
+            <fieldset>
+
+                <div class="main">
+                    <div class="box1">
+                        <div class="border1">
+                            <div class="border2">
+                                <p>Student Registration Form</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box2">
+                        <table rules="all">
+
+                            <!-- 1st row -->
+                            <tr>
+                                <td class="cl1">Name :</td>
+                                <td><input type="text" placeholder="Enter full name" class="td1"></td>
+                            </tr>
+
+                            <!-- 2nd row -->
+                            <tr>
+                                <td class="cl2">Father's Name :</td>
+                                <td><input type="text" class="td1"></td>
+                            </tr>
+
+                            <!-- 3rd row -->
+                            <tr>
+                                <td class="cl3">Mother's Name :</td>
+                                <td><input type="text" class="td1"></td>
+                            </tr>
+
+                            <!-- 4th row -->
+                            <tr>
+                                <td class="cl4">Phone Number :</td>
+                                <td><input type="text" placeholder="017xxxxxxx" maxlength="10" minlength="10"
+                                        class="td1">
+                                </td>
+                            </tr>
+
+                            <!-- 5th row -->
+                            <tr>
+                                <td class="cl5">Email :</td>
+                                <td><input type="email" placeholder="sample@example.com" class="td1"></td>
+                            </tr>
+
+                            <!-- 6th row -->
+                            <tr>
+                                <td class="cl6">Gender :</td>
+                                <td><input type="radio" name="Gender" class="gen">Male <input type="radio"
+                                        name="Gender">Female
+                                    <input type="radio" name="Gender">Other
+                                </td>
+                                </td>
+                            </tr>
+
+                            <!-- 7th row -->
+                            <tr>
+                                <td class="cl7">Date Of Birth :</td>
+                                <td><input type="text" placeholder="DD" class="dd" maxlength="2" minlength="2">- <input
+                                        type="text" placeholder="MM" class="mm" maxlength="2" minlength="2">- <input
+                                        type="text" placeholder="YYYY" class="yy" maxlength="4" minlength="4">
+                                </td>
+                            </tr>
+
+                            <!-- 8th row -->
+                            <tr>
+                                <td class="cl8">
+                                    Address :
+                                </td>
+                                <td><input type="text" placeholder="Street:-  House:-  Road:-" class="td2"></td>
+                            </tr>
+
+                            <!-- 9th row -->
+                            <tr>
+                                <td class="cl9">Blood Group :</td>
+                                <td><select name="" id="" class="sel">
+                                        <option value="">Select</option>
+                                        <option value="">AB+</option>
+                                        <option value="">AB-</option>
+                                    </select>
+                                </td>
+                            </tr>
+
+                            <!-- 10th row -->
+                            <tr>
+                                <td class="cl10">Department :</td>
+                                <td><input type="radio" name="a" class="dep"> CSE <input type="radio" name="a"> EEE
+                                    <input type="radio" name="a"> BBA
+                                </td>
+                            </tr>
+
+                            <!-- 11th row -->
+                            <tr>
+                                <td class="cl11">Course :</td>
+                                <td><input type="checkbox" class="check"> C <input type="checkbox" class="check1"> C++
+                                    <input type="checkbox" class="check2">
+                                    Java <input type="checkbox" class="check3"> AI <input type="checkbox"
+                                        class="check4">
+                                    Machine
+                                    Learning <input type="checkbox" class="check5"> Robotics
+                                </td>
+                            </tr>
+
+                            <!-- 12th row -->
+                            <tr>
+                                <td class="cl12">Photo :</td>
+                                <td class="td4"><input type="file" placeholder="Choose File" class="td3"> </td>
+                            </tr>
+                        </table>
+                        <button class="btn1">Submit</button> <button class="btn2">Reset</button>
+                    </div>
+                </div>
+            </fieldset>
+        </center>
+    </form>
+</body>
+
+
+</html>
